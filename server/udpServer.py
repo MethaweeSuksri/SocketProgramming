@@ -35,10 +35,5 @@ def main():
     encoder.join()
     timer.join()
 
-    # while True:
-    #     message, clientAddress = serverSocket.recvfrom( 2048 )
-    #     modifiedMessage = message.decode().upper()
-    #     serverSocket.sendto( modifiedMessage.encode() , clientAddress )
-
 if __name__ == "__main__":
     main()
